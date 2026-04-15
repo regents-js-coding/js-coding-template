@@ -1,0 +1,13 @@
+{
+  "name": "DSC502 Coding Module",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install pandas numpy matplotlib seaborn plotly scikit-learn streamlit openai jupyter",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}
